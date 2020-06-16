@@ -13,5 +13,3 @@ git commit -m "Titulo de la actualización (El que ustedes quieran, entre las co
 
 git clone https://github.com/AldoRed/covid-19
 para descargar el proyecto actual.
-
-
