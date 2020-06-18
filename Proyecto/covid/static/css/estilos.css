@@ -3,11 +3,10 @@ body{
 }
 
 #info{
-    position: absolute;
+    position: fixed;
     border-radius: 50%;
-    top: 90%;
-    left: 90%;
-    transform: translate(-50%,-50%);
+    bottom: 10px;
+    right:10px ;
     background-color: red;
 }
 
