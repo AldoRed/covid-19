@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+
+    <script type="text/script" src="{% static 'js/jquery.js '%}"></script>
+    <script type="text/script" src="{% static 'js/materialize.min.js '%}"></script>
+
     <title>Covid 19</title>
 </head>
 <body>
-    <h1>Covid 19</h1>
+    <div id="inicioLeft">
+        <div class="centrar">
+            <h5>Estoy en seguimiento</h5> <br>
+            <a style="padding:6px;">Ingresar</a>
+        </div>
+    </div>
+    <div class="" id="inicio">
+        <h1>Seguimientos</h1>
+        <h5>Covid 19</h5>
+    </div>
+    <div id="info">
+        <p>?</p>
+    </div>
+    <div id="inicioRight">
+        <div class="centrar">
+            <h5>Empezar un seguimiento</h5> <br>
+            <a style="padding:6px; border:solid 1px white;">Enviar datos</a>
+        </div>
+    </div>
 </body>
 </html>

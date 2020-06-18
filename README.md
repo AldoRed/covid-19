@@ -10,6 +10,7 @@ para descargar el proyecto actual ("Esto lo deben hacer en el terminal").
 
 
 git add Nombre del Archivo
+
 git add . ("Añade todos los archivos modificados o que agregaron.")
 
 git commit -m "Titulo de la actualización"
