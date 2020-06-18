@@ -42,12 +42,34 @@ body{
     background-color: #031992;
 }
 
+#inicioLeft a{
+    padding:6px;
+}
+
+#inicioLeft a:hover{
+    background-color: white;
+    color: #031992;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
 #inicioRight{
     position: absolute;
     left: 50%;
     width: 50%;
     height: 100vh;
     color: #031992;
+}
+
+#inicioRight a{
+    padding:6px;
+}
+
+#inicioRight a:hover{
+    background-color: #031992;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .centrar{
