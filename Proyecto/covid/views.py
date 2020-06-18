@@ -4,3 +4,12 @@ from django.shortcuts import render, HttpResponse
 
 def index(request):
     return render(request, "index.html")
+
+def ingresar(request):
+    return render(request, "ingresar.html")
+
+def registrar(request):
+    return render(request, "registrar.html")
+
+def admin(request):
+    return render(request, "admin.html")
