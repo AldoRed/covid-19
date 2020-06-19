@@ -17,3 +17,5 @@ git commit -m "Titulo de la actualización"
 (El que ustedes quieran, entre las comillas.)
 
 git push ("Suben los commit al repositorio")
+
+git pull ("Actualizan sus archivos locales segun lo que está en el repositorio de git hub".)
