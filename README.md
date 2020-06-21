@@ -8,8 +8,10 @@ En git-scm.com
 ###### Primer paso para agregar el repositorio en VS Code
 
 git remote add origin https://github.com/AldoRed/covid-19
+
 git push -u origin master
-para descargar el proyecto actual ("Esto lo deben hacer en el terminal").
+
+***para descargar el proyecto actual*** ("Esto lo deben hacer en el terminal").
 
 
 
