@@ -17,8 +17,8 @@ para descargar el proyecto actual ("Esto lo deben hacer en el terminal").
 
 1. git add . ***("Añade todos los archivos modificados o que agregaron.")***
 
-    2. git commit -m "Titulo de la actualización" ***(El que ustedes quieran, entre las comillas.)***
+    - git commit -m "Titulo de la actualización" ***(El que ustedes quieran, entre las comillas.)***
 
-        3. git push ***("Suben los commit al repositorio")***
+        - git push ***("Suben los commit al repositorio")***
 
-            4. git pull ***("Actualizan sus archivos locales segun lo que está en el repositorio de git hub".)***
+            - git pull ***("Actualizan sus archivos locales segun lo que está en el repositorio de git hub".)***
