@@ -23,4 +23,8 @@ git push -u origin master
 
 3. git push ***("Suben los commit al repositorio")***
 
-4. git pull ***("Actualizan sus archivos locales segun lo que está en el repositorio de git hub".)***
+
+###### Tercer paso para actualizar el repositorio descargado en el VS Code
+
+git pull ***("Actualizan sus archivos locales segun lo que está en el repositorio de git hub".)***
+
