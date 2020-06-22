@@ -1,21 +1,31 @@
-# covid-19
+# Proyecto covid-19
 
 Hola, este será el repositorio del proyecto.
+Prueba Mauricio
 
 Deben descargar git
 En git-scm.com
 
-git clone https://github.com/AldoRed/covid-19
-para descargar el proyecto actual ("Esto lo deben hacer en el terminal").
+###### Primer paso para agregar el repositorio en VS Code
+
+git remote add origin https://github.com/AldoRed/covid-19
+
+git push -u origin master
+
+***para descargar el proyecto actual*** ("Esto lo deben hacer en el terminal").
 
 
-git add Nombre del Archivo
 
-git add . ("Añade todos los archivos modificados o que agregaron.")
+###### Segundo pasos para subir datos modificados
 
-git commit -m "Titulo de la actualización"
-(El que ustedes quieran, entre las comillas.)
+1. git add . ***("Añade todos los archivos modificados o que agregaron.")***
 
-git push ("Suben los commit al repositorio")
+2. git commit -m "Titulo de la actualización" ***(El que ustedes quieran, entre las comillas.)***
 
-git pull ("Actualizan sus archivos locales segun lo que está en el repositorio de git hub".)
+3. git push ***("Suben los commit al repositorio")***
+
+
+###### Tercer paso para actualizar el repositorio descargado en el VS Code
+
+git pull ***("Actualizan sus archivos locales segun lo que está en el repositorio de git hub".)***
+
