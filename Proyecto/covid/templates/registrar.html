@@ -1,3 +1,148 @@
-Registrar
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'img/logo.png'%}" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
 
-<a href="index">Enviar datos</a>
+    <script type="text/script" src="{% static 'js/jquery.js '%}"></script>
+    <script type="text/script" src="{% static 'js/materialize.min.js '%}"></script>
+
+    <title>Empezar seguimiento covid 19</title>
+</head>
+<body style="background:#031992;">
+    <div id="info">
+        <p>?</p>
+    </div>
+    <div id="registro" class="centrar">
+        <div class="row">
+            <form class="col s12">
+            <div class="1-1">
+                <h5>Empezar un seguimiento</h5><br>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="nombre" type="text" class="validate">
+                        <label class="active" for="first_name2">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="nombre" type="text" class="validate">
+                        <label class="active" for="first_name2">Apellidos</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="text" class="validate">
+                        <label class="active" for="first_name2">Correo</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="number" type="number" class="validate">
+                        <label class="active" for="first_name2">Numero Celular</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <a class="volverMenu btn blue" href="inicio" style="color:white;">Volver</a>
+                    </div>
+                    <div class="input-field col s6">
+                        <a class="siguiente btn yellow" style="color:black;">Siguiente</a>
+                    </div>
+                </div>
+            </div>
+            <div class="1-2 noDisplay">
+                <h5>Sintomas</h5>
+                <label>Marque si tiene alguno de estos sintomas</label>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Tos</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Fiebre</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Dolor general</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Irritación</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Tos</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Fiebre</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Dolor general</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Irritación</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Tos</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Fiebre</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Dolor general</span>
+                        </label>
+                    </div>
+                    <div class="input-field col s12">
+                        <label>
+                            <input type="checkbox" />
+                            <span>Irritación</span>
+                        </label>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <a class="volver btn blue" style="color:white;">Volver</a>
+                    </div>
+                    <div class="input-field col s6">
+                        <a class="siguiente btn yellow" style="color:black;">Siguiente</a>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
