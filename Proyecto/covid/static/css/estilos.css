@@ -78,3 +78,13 @@ body{
     transform: translate(-50%,-50%);
     text-align:center;
 }
+
+#registro{
+    color: #031992;
+    background-color:white;
+    padding:10px;
+}
+
+.noDisplay{
+    display: none;
+}
