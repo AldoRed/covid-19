@@ -88,3 +88,9 @@ body{
 .noDisplay{
     display: none;
 }
+
+#ingreso{
+    color: #031992;
+    background-color:white;
+    padding:10px;
+}
