@@ -12,11 +12,28 @@ def index(request):
         celular = request.POST.get('celular','')
         tos = request.POST.get('tos','')
         fiebre = request.POST.get('fiebre','')
-
+        dolor_toraxico = request.POST.get('dolor_toraxico','')
+        odinoflagia = request.POST.get('odinoflagia','')
+        mialgias = request.POST.get('mialgias','')
+        calofrios = request.POST.get('calofrios','')
+        cefalea = request.POST.get('cefalea','')
+        diarrea = request.POST.get('diarrea','')
+        anosmia = request.POST.get('anosmia','')
+        ageusia = request.POST.get('ageusia','')
+        
         sintomas = []
 
         sintomas.append(tos)
         sintomas.append(fiebre)
+        sintomas.append(dolor_toraxico)
+        sintomas.append(odinofagia)
+        sintomas.append(mialgias)
+        sintomas.append(calofrios)
+        sintomas.append(cefalea)
+        sintomas.append(diarrea)
+        sintomas.append(anosmia)
+        sintomas.append(ageusia)
+        
 
         nuevo_cliente = Clientes()
         nuevo_cliente.nombre = nombre
