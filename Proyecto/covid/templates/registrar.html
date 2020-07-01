@@ -15,12 +15,14 @@
     <title>Empezar seguimiento covid 19</title>
 </head>
 <body style="background:#031992;">
-    <div id="info">
+    <div class="info">
         <p>?</p>
+        <div class="dentro noDisplay"><h5>Aqui se tienen que registrar</h5></div>
     </div>
     <div id="registro" class="centrar">
         <div class="row">
-            <form class="col s12">
+            <form class="col s12" action="inicio" method="post">
+            {% csrf_token %}
             <div class="1-1">
                 <h5>Empezar un seguimiento</h5><br>
                 <div class="row">
@@ -29,7 +31,7 @@
                         <label class="active" for="first_name2">Nombre</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="nombre" type="text" class="validate">
+                        <input id="apellido" type="text" class="validate">
                         <label class="active" for="first_name2">Apellidos</label>
                     </div>
                 </div>
@@ -41,7 +43,7 @@
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="number" type="number" class="validate">
+                        <input id="numero" type="number" class="validate">
                         <label class="active" for="first_name2">Numero Celular</label>
                     </div>
                 </div>
