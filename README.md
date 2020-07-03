@@ -1,4 +1,4 @@
-# Proyecto covid-19
+# Proyecto Seguimiento de casos de Covid-19
 
 Hola, este será el repositorio del proyecto.
 Prueba Mauricio
