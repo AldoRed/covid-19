@@ -20,7 +20,7 @@ $("#registro .1-2 .volver").click(function(){
 })
 
 $("#registro .1-2 .siguiente").click(function(){
-    alert("Registro")
+    alert("Datos enviados: Pronto será contactado para analizar su caso")
 })
 
 $(".info").mouseover(function(){

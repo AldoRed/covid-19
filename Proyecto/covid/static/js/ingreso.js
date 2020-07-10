@@ -1,8 +1,3 @@
-$("#ingreso .siguiente").click(function(){
-    var correo = $("#email").val()
-    alert(correo);
-})
-
 $(".info").mouseover(function(){
     $(".info div").removeClass("noDisplay");
 })

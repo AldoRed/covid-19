@@ -21,6 +21,7 @@ def index(request):
         anosmia = request.POST.get('anosmia','')
         ageusia = request.POST.get('ageusia','')
         
+        nombres = ["tos","fiebre","dolor_toraxico","odinoflagia","mialgias","calofrios","cefalea","diarrea","anosmia","ageusia"]
         sintomas = []
 
         sintomas.append(tos)
@@ -33,6 +34,10 @@ def index(request):
         sintomas.append(diarrea)
         sintomas.append(anosmia)
         sintomas.append(ageusia)
+
+        for i in range(len(sintomas)):
+            if(sintomas[i] == "on"):
+                sintomas[i] = nombres[i]
         
 
         nuevo_cliente = Clientes()
@@ -41,11 +46,26 @@ def index(request):
         nuevo_cliente.correo = correo
         nuevo_cliente.numero = celular
         nuevo_cliente.sintomas = sintomas
+        nuevo_cliente.comentarios = "Aun no tienes comentarios"
         nuevo_cliente.save()
 
     return render(request, "index.html")
 
 def ingresar(request):
+    if(request.method == 'POST'):
+        email = request.POST.get('email','')
+        cliente = Clientes.objects.get(correo=email)
+
+        if(cliente == ""):
+            return render(request, "ingresar.html")
+            
+        context = {"nombre":cliente.nombre,
+                    "apellido":cliente.apellido,
+                    "correo":cliente.correo,
+                    "numero":cliente.numero,
+                    "comentario":cliente.comentarios}
+
+        return render(request, "inicio.html", context)
     return render(request, "ingresar.html")
 
 def registrar(request):

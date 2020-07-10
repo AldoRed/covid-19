@@ -21,14 +21,15 @@
     </div>
     <div id="ingreso" class="centrar">
         <div class="row">
-            <form class="col s12">
+            <form class="col s12" action="ingresar" method="post">
+                    {% csrf_token %}
             <div class="1-1">
                 <h5>Revisar estado</h5>
                 <label>Introduzca su correo</label><br>
-                <br>
+                <br>     
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="email" type="text" class="validate">
+                        <input name="email" id="email" type="text" class="validate">
                         <label class="active" for="first_name2">Correo</label>
                     </div>
                 </div>
@@ -37,7 +38,7 @@
                         <a href="inicio" class="volverMenu btn blue" style="color:white;">Volver</a>
                     </div>
                     <div class="input-field col s6">
-                        <a class="siguiente btn yellow" style="color:black;">Siguiente</a>
+                        <button class="siguiente btn yellow" style="color:black;">Siguiente</button>
                     </div>
                 </div>
             </div>

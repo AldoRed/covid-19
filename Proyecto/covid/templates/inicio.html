@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'img/logo.png'%}" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+
+    <script type="text/javascript" src="{% static 'js/jquery.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.min.js'%}"></script>
+
+    <title>Empezar seguimiento covid 19</title>
+</head>
+<body style="background:#031992;">
+    <div class="info">
+        <p>?</p>
+        <div class="dentro noDisplay"><h5>Aqui se tienen que registrar</h5></div>
+    </div>
+    <div id="ingreso" class="centrar">
+        <div class="row">
+            <h2>Bienvenida {{nombre}} {{apellido}}</h2>
+            <p>Comentarios:</p>
+            <div>
+                {{comentario}}
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+    <script type="text/javascript" src="{% static 'js/ingreso.js'%}">
+    $(".info").mouseover(function(){
+    $(".info div").removeClass("noDisplay");
+    })
+
+    $(".info").mouseout(function(){
+        $(".info div").addClass("noDisplay");
+    })
+    </script>
+
+</html>
