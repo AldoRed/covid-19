@@ -22,12 +22,15 @@ body{
 
 #inicio{
     cursor: pointer;
-    top: 0%;
     position: absolute;
+    top: 0;
+    left: 50vw;
+    transform: translate(-50%);
+    width: 300px;
     text-align: center;
     background-color: #03a9f4 ;
     padding: 20px;
-    width: 100%;
+    border-radius: 0 0 25px 25px;
 }
 
 #inicio h1{

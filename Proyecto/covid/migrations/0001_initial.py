@@ -20,6 +20,7 @@ class Migration(migrations.Migration):
                 ('correo', models.EmailField(max_length=254)),
                 ('numero', models.TextField()),
                 ('sintomas', models.TextField()),
+                ('comentarios', models.TextField()),
             ],
         ),
     ]

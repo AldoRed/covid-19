@@ -26,7 +26,7 @@ def index(request):
         sintomas.append(tos)
         sintomas.append(fiebre)
         sintomas.append(dolor_toraxico)
-        sintomas.append(odinofagia)
+        sintomas.append(odinoflagia)
         sintomas.append(mialgias)
         sintomas.append(calofrios)
         sintomas.append(cefalea)

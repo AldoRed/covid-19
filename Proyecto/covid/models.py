@@ -6,6 +6,7 @@ class Clientes(models.Model):
     correo = models.EmailField(max_length=254)
     numero = models.TextField()
     sintomas = models.TextField()
+    comentarios = models.TextField()
 
     def publish(self):
         self.save()
